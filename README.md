@@ -4,7 +4,7 @@ An experimental, totally unusable proof-of-concept Clojure to Java quasi-compile
 
 This:
 
-``clojure
+```clojure
 (ns test)
 
 (defn -main [& args]
