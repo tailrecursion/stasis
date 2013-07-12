@@ -65,7 +65,6 @@
   (comment todo))
 
 (defn add-main [nsc def]
-  (pr def)
   (let [[_ _ [_ [[_ argname] & body]]] def
         argv (munge argname)
         env #{argv}]
