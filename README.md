@@ -94,6 +94,11 @@ public class test {
 ***** e.g. dalvik
 ***** maybe a non-benefit depending on bytecode transform tools
 ***** TODO look into the state of these tools
+**** have to appease the java compiler, which sucks
+***** does every expression need to boil into an inner class that returns an Object?
+****** if so this makes primitives across call boundaries a hairy proposition
+****** code would be a mixture of object/primitive consumption, emission
+******* need to trace primitive paths and emit code that touches appropriately
 **** could generate 'idiomatic' java
 ***** definitely would require whole-program analysis and heuristics
 ***** AI project, out-of-scope sorry fogus :-(
