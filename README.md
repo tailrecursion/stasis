@@ -1,6 +1,6 @@
 # stasis
 
-An experimental, totally unusable proof-of-concept Clojure to Java quasi-compiler.
+A collection of experiments related to the idea of compiling Clojure to Java.
 
 This:
 
